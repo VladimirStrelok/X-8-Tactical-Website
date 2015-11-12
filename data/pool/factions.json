@@ -1,0 +1,78 @@
+[
+  {
+    "name":"Beastmen",
+    "code":"Beastmen"
+  },
+  {
+    "name": "Bretonnia",
+    "code":"Beastmen"
+  },
+  {
+    "name": "Daemons of Chaos",
+    "code":"Daemons_of_Chaos"
+  },
+  {
+    "name": "Dark Elves",
+    "code":"Dark_Elves"
+  },
+  {
+    "name": "Dwarves",
+    "code":"Dwarves"
+  },
+  {
+    "name": "High Elves",
+    "code":"High_Elves"
+  },
+  {
+    "name": "Khorne Bloodbound",
+    "code":"Khorne_Bloodbound"
+  },
+  {
+    "name": "Legion of Azgorth",
+    "code":"Legion_of_Azgorth"
+  },
+  {
+    "name": "Lizardmen",
+    "code":"Lizardmen"
+  },
+  {
+    "name": "Ogre Kingdoms",
+    "code":"Ogre_Kingdoms"
+  },
+  {
+    "name": "Orcs and Goblins",
+    "code":"Orcs_and_Goblins"
+  },
+  {
+    "name": "Skaven",
+    "code":"Skaven"
+  },
+  {
+    "name": "Stormcast Eternals",
+    "code":"Stormcast_Eternals"
+  },
+  {
+    "name": "The Empire",
+    "code":"The_Empire"
+  },
+  {
+    "name": "Tamurkhan's Horde",
+    "code":"Tamurkhans_Horde"
+  },
+  {
+    "name": "Tomb Kings",
+    "code":"Tomb_Kings"
+  },
+  {
+    "name": "Vampire Counts",
+    "code":"Vampire Counts"
+  },
+  {
+    "name": "Warriors of Chaos",
+    "code":"Beastmen"
+  },
+  {
+    "name": "Wood Elves"
+    "code":"Beastmen"
+  }
+]

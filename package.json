@@ -1,0 +1,30 @@
+{
+  "name": "x8tactical",
+  "version": "0.0.1",
+  "description": "x-8 Tactical's website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VladimirStrelok/SigmarApp.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/VladimirStrelok/SigmarApp/issues"
+  },
+  "homepage": "https://github.com/VladimirStrelok/SigmarApp",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bowercopy": "^1.2.3",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt-contrib-jade": "^0.15.0",
+    "grunt-contrib-less": "^1.0.1"
+  },
+  "dependencies": {
+    "grunt-contrib-concat": "^0.5.1"
+  }
+}

@@ -1,0 +1,29 @@
+@import "bootstrap.less";
+@import "../bower_components/font-awesome/less/font-awesome.less";
+@import "../bower_components/lesshat/build/lesshat-prefixed.less";
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+body{
+  height:100%;
+  background-size: cover !important;
+  background: no-repeat center center fixed;
+  transition: .5s;
+}
+
+header{
+  border-bottom: 1px black solid;
+  padding-bottom:@padding-small-vertical;
+  .container;
+  .title{
+    font-size: 6vw;
+    font-weight: 700;
+    line-height: 1;
+    display: inline;
+  }
+  img{
+    height: 6vw;
+    vertical-align: top;
+    margin-right:1vmax;
+  }
+}
