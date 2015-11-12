@@ -27,3 +27,29 @@ header{
     margin-right:1vmax;
   }
 }
+main{
+  .container;
+  .products{
+    .make-row();
+    .product{
+      .make-sm-column(6);
+      .make-md-column(4);
+      .make-row();
+      padding:@padding-small-vertical @padding-small-horizontal;
+      img{
+        .img-responsive();
+        .make-sm-column(8);
+      }
+      .info{
+        .make-sm-column(4);
+      }
+    }
+  }
+  .about{
+    .make-row();
+    .fb-page{
+      .make-sm-column(6);
+      .make-md-column(4);
+    }
+  }
+}

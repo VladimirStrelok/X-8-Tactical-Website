@@ -33,7 +33,7 @@ module.exports = function (grunt) {
         separator: ';'
       },
       build: {
-        src: ['scripts/angular/**/*.js'],
+        src: ['scripts/angular/**/*.js','scripts/facebook/**/*.js'],
         dest: 'public_html/js/<%= pkg.name %>.js'
       }
     },
@@ -63,8 +63,7 @@ module.exports = function (grunt) {
           destPrefix: 'public_html/js/vendor'
         },
         files: {
-          'angular/angular.js': 'angular/angular.min.js',
-          'trianglify/trianglify.js': 'trianglify/dist/trianglify.min.js'
+          'angular/angular.js': 'angular/angular.min.js'
         }
       }
     },

@@ -6,11 +6,38 @@ html(ng-app='app')
       meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
   body(ng-controller='BodyCtrl')
     header
-      img(src='img/x8-tactical-logo.png')
+      img(src='img/logo.png')
       .title X-8 Tactical
     main
       .products
-        .product
+        h2 Our Products
+        .product 
+          h3.name Arrow
+          img(alt='arrow', src='img/products/arrow/1.jpg')
+          .pricing Price:
+            .price $100
+          .description
+        .product 
+          h3.name Morgan
+          img(alt='morgan', src='img/products/morgan/1.jpg')
+          .info
+            .pricing Price: 
+              .price $125
+            .description
+        .product 
+          h3.name Morgan Trainer
+          img(alt='morgan-trainer', src='img/products/morgan-trainer/1.jpg')
+          .pricing Price: 
+            .price Wrapped: $30
+            .price Un-Wrapped: $35
+          .description
+      .about  
+        h2 About Us
+        .fb-page(data-href="https://www.facebook.com/X8TacticalLimited/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true")
+          .fb-xfbml-parse-ignore
+            blockquote(cite="https://www.facebook.com/X8TacticalLimited/")
+              a(href="https://www.facebook.com/X8TacticalLimited/") X-8 Tactical Limited
+          
           
     script(src='./js/vendor/angular/angular.js')
     script(src='./js/'+pkgName+'.js')
