@@ -14,36 +14,72 @@ html(ng-app='app')
         .product 
           h3.name Arrow
           img(alt='arrow', src='img/products/arrow/1.jpg')
-          .pricing Price:
-            .price $100
+          .info
+            .pricing Price:
+              .price $100
           .description
+            form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
+              input(type="hidden" name="cmd" value="_s-xclick")
+              input(type="hidden" name="hosted_button_id" value="PLMQHCLQYTQFE")
+              input(type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!")
+              img(alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1")
         .product 
           h3.name Morgan
           img(alt='morgan', src='img/products/morgan/1.jpg')
           .info
             .pricing Price: 
               .price $125
-            .description
+          .description
+            form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
+              input(type="hidden" name="cmd" value="_s-xclick")
+              input(input type="hidden" name="hosted_button_id" value="C6FCRN5K9LPQJ")
+              input(type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!")
+              img(img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1")
         .product 
           h3.name DM
-          .pricing Price: 
-            .price $125
-          |<blockquote class="instagram-media" data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/4AAyDZq0Wg/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by @x8tactical</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-06-16T18:31:56+00:00">Jun 16, 2015 at 11:31am PDT</time></p></div></blockquote>
+          img(alt='DM', src='img/products/DM/1.jpg')
+          .info
+            .pricing Price: 
+              .price $125
           .description
+            form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
+              input(type="hidden" name="cmd" value="_s-xclick")
+              input(type="hidden" name="hosted_button_id" value="KMCXLE26LKJCE")
+              input(type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!")
+              img(alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1")
         .product 
           h3.name Morgan Trainer
           img(alt='morgan-trainer', src='img/products/morgan-trainer/1.jpg')
-          .pricing Price: 
-            .price Wrapped: $30
-            .price Un-Wrapped: $35
+          .info
+            .pricing Price: 
+              .price Wrapped: $35
+              .price Un-Wrapped: $30
           .description
+            form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
+              input(type="hidden" name="cmd" value="_s-xclick")
+              input(type="hidden" name="hosted_button_id" value="KEPBG65EG8DCU")
+              table
+                tr
+                  td
+                    input(type="hidden" name="on0" value="Handle">Handl)
+                tr
+                  td
+                    select(name="os0")
+                      option(value="Wrapped") Wrapped $35.00 US
+                      option(value="Un-Wrapped") Un-Wrapped $30.00 US
+              input(type="hidden" name="currency_code" value="USD")
+              input(type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!")
+              img(alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1")
+
       .about  
         h2 About Us
         .fb-page(data-href="https://www.facebook.com/X8TacticalLimited/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true")
           .fb-xfbml-parse-ignore
             blockquote(cite="https://www.facebook.com/X8TacticalLimited/")
               a(href="https://www.facebook.com/X8TacticalLimited/") X-8 Tactical Limited
+        p X-8 Tactical is a small family based business. Owned by Michael and Jonna Anne. Michael and Jonna have worked with Proffessional chefs, Law Enforcement, Military, Search and Recover Divers, EMS, Martial Artists, Defensive Tactics instructors when working to designed new knives and tools. Michael has 30 years of martial arts experince and has been working along law enformenent and divers  for 16 years. 
+        p Jonna has been working as a professional chef for over 17 years  
+        p Mike is a the edge weapons consulatant for allstar tactical in Rochester, NY
           
-    script(async defer src="//platform.instagram.com/en_US/embeds.js")
     script(src='./js/vendor/angular/angular.js')
     script(src='./js/'+pkgName+'.js')
