@@ -76,9 +76,26 @@ html(ng-app='app')
             blockquote(cite="https://www.facebook.com/X8TacticalLimited/")
               a(href="https://www.facebook.com/X8TacticalLimited/") X-8 Tactical Limited
         .description
-          p X-8 Tactical is a small family based business. Owned by Michael and Jonna Anne. Michael and Jonna have worked with Proffessional chefs, Law Enforcement, Military, Search and Recover Divers, EMS, Martial Artists, Defensive Tactics instructors when working to designed new knives and tools. Michael has 30 years of martial arts experince and has been working along law enformenent and divers  for 16 years. 
-          p Jonna has been working as a professional chef for over 17 years  
-          p Mike is a the edge weapons consulatant for allstar tactical in Rochester, NY
+          .about
+            p X-8 Tactical is a small family based business. Owned by Michael and Jonna Anne. Michael and Jonna have worked with Proffessional chefs, Law Enforcement, Military, Search and Recover Divers, EMS, Martial Artists, Defensive Tactics instructors when working to designed new knives and tools. Michael has 30 years of martial arts experince and has been working along law enformenent and divers  for 16 years. 
+            p Jonna has been working as a professional chef for over 17 years  
+            p Mike is a the edge weapons consulatant for allstar tactical in Rochester, NY
+          .contact
+            .title Contact Us
+            .name Mike
+            .number (585) 314-1613
+            .email 
+              a(href="mailto:Mike@x8tactical.com") Mike@x8tactical.com
+          .friends
+            .title Our Friends
+            .friend 
+              a(href="http://www.allstartactical.com")
+                img.img-responsive(src='img/friends/allstar-tactical/ast-header-logo.png')
+            .friend Products can be found at iron Mike's military exchange
+            .friend Dealers welcome and currently only shipping to the United States
+          .disclaimer
+            .title Disclaimer
+            p You are responsible for knowing the knife laws in your area and we are not held responsible for purchases made knowingly against the knife laws in your jurisdiction.
           
     script(src='./js/vendor/angular/angular.js')
     script(src='./js/'+pkgName+'.js')

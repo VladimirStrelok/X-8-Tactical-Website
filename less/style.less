@@ -30,6 +30,7 @@ header{
 main{
   .container;
   .main-copy{
+    margin-top:@padding-large-vertical;
     p{
       font-size:@font-size-large;
     }
@@ -64,10 +65,34 @@ main{
       .make-md-column(4);
     }
     .description{
+      font-size:@font-size-large;
       .make-sm-column(6);
       .make-md-column(8);
-      p{
-        font-size:@font-size-large;
+      .contact{
+        .title{
+          .h2;
+          margin-top:10px;
+        }
+      }
+      .friends{
+        .title{
+          .h2;
+          margin-top:10px;
+        }
+      }
+      .about{
+        .title{
+          .h3;
+        }
+      }
+      .disclaimer{
+        .title{
+          .h2;
+          margin-top:10px;
+        }
+        p{
+          font-size:ceil((@font-size-large * 1.25));
+        }
       }
     }
   }
