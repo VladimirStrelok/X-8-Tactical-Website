@@ -29,6 +29,11 @@ header{
 }
 main{
   .container;
+  .main-copy{
+    p{
+      font-size:@font-size-large;
+    }
+  }
   .products{
     .make-row();
     .product{
@@ -48,7 +53,7 @@ main{
         .make-xs-column(12);
       }
       .description{
-        .make-sm-column(4);
+        .make-xs-column(4);
       }
     }
   }
@@ -57,6 +62,13 @@ main{
     .fb-page{
       .make-sm-column(6);
       .make-md-column(4);
+    }
+    .description{
+      .make-sm-column(6);
+      .make-md-column(8);
+      p{
+        font-size:@font-size-large;
+      }
     }
   }
 }

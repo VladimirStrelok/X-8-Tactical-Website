@@ -9,6 +9,9 @@ html(ng-app='app')
       img(src='img/logo.png')
       .title X-8 Tactical
     main
+      .main-copy
+        p X-8 Tactical Limited is a custom knife and tool company specializing designing products that meet the needs of Military, Law Enforcement, EMS and Professional Chefs.
+        p The Visions of X-8 Tactical Limited is to provide professionals with the best tool for the job. Be it for the Law Enforcement Officer to the Professional Chef we at X-8 expect our tools to perform any task asked of them
       .products
         h2 Our Products
         .product 
@@ -58,15 +61,10 @@ html(ng-app='app')
             form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
               input(type="hidden" name="cmd" value="_s-xclick")
               input(type="hidden" name="hosted_button_id" value="KEPBG65EG8DCU")
-              table
-                tr
-                  td
-                    input(type="hidden" name="on0" value="Handle">Handl)
-                tr
-                  td
-                    select(name="os0")
-                      option(value="Wrapped") Wrapped $35.00 US
-                      option(value="Un-Wrapped") Un-Wrapped $30.00 US
+              input(type="hidden" name="on0" value="Handle">Handle)
+              select.form-control(name="os0")
+                option(value="Wrapped") Wrapped $35.00 US
+                option(value="Un-Wrapped") Un-Wrapped $30.00 US
               input(type="hidden" name="currency_code" value="USD")
               input(type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!")
               img(alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1")
@@ -77,9 +75,10 @@ html(ng-app='app')
           .fb-xfbml-parse-ignore
             blockquote(cite="https://www.facebook.com/X8TacticalLimited/")
               a(href="https://www.facebook.com/X8TacticalLimited/") X-8 Tactical Limited
-        p X-8 Tactical is a small family based business. Owned by Michael and Jonna Anne. Michael and Jonna have worked with Proffessional chefs, Law Enforcement, Military, Search and Recover Divers, EMS, Martial Artists, Defensive Tactics instructors when working to designed new knives and tools. Michael has 30 years of martial arts experince and has been working along law enformenent and divers  for 16 years. 
-        p Jonna has been working as a professional chef for over 17 years  
-        p Mike is a the edge weapons consulatant for allstar tactical in Rochester, NY
+        .description
+          p X-8 Tactical is a small family based business. Owned by Michael and Jonna Anne. Michael and Jonna have worked with Proffessional chefs, Law Enforcement, Military, Search and Recover Divers, EMS, Martial Artists, Defensive Tactics instructors when working to designed new knives and tools. Michael has 30 years of martial arts experince and has been working along law enformenent and divers  for 16 years. 
+          p Jonna has been working as a professional chef for over 17 years  
+          p Mike is a the edge weapons consulatant for allstar tactical in Rochester, NY
           
     script(src='./js/vendor/angular/angular.js')
     script(src='./js/'+pkgName+'.js')
