@@ -14,38 +14,44 @@ html(ng-app='app')
         p The Visions of X-8 Tactical Limited is to provide professionals with the best tool for the job. Be it for the Law Enforcement Officer to the Professional Chef we at X-8 expect our tools to perform any task asked of them
       .products
         h2 Our Products
-        .product 
+        .product.out
           h3.name Arrow
           img(alt='arrow', src='img/products/arrow/1.jpg')
           .info
             .pricing Price:
               .price $100
           .description
-            form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
-              input(type="hidden" name="cmd" value="_s-xclick")
-              input(type="hidden" name="hosted_button_id" value="PLMQHCLQYTQFE")
-              input(type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!")
-              img(alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1")
-        .product 
+            p.out-message Out of Stock
+            .in-message
+              form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
+                input(type="hidden" name="cmd" value="_s-xclick")
+                input(type="hidden" name="hosted_button_id" value="PLMQHCLQYTQFE")
+                input(type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!")
+                img(alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1")
+        .product.out
           h3.name Morgan
           img(alt='morgan', src='img/products/morgan/1.jpg')
           .info
             .pricing Price: 
               .price $125
           .description
-            form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
-              input(type="hidden" name="cmd" value="_s-xclick")
-              input(input type="hidden" name="hosted_button_id" value="C6FCRN5K9LPQJ")
-              input(type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!")
-              img(img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1")
-        .product 
+            p.out-message Out of Stock
+            .in-message
+              form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
+                input(type="hidden" name="cmd" value="_s-xclick")
+                input(input type="hidden" name="hosted_button_id" value="C6FCRN5K9LPQJ")
+                input(type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!")
+                img(img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1")
+        .product.out
           h3.name DM
           img(alt='DM', src='img/products/DM/1.jpg')
           .info
             .pricing Price: 
               .price $125
           .description
-            form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
+            p.out-message Out of Stock
+            .in-message
+              form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
               input(type="hidden" name="cmd" value="_s-xclick")
               input(type="hidden" name="hosted_button_id" value="KMCXLE26LKJCE")
               input(type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!")
@@ -58,7 +64,9 @@ html(ng-app='app')
               .price Wrapped: $35
               .price Un-Wrapped: $30
           .description
-            form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
+            p.out-message Out of Stock
+            .in-message
+              form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
               input(type="hidden" name="cmd" value="_s-xclick")
               input(type="hidden" name="hosted_button_id" value="KEPBG65EG8DCU")
               input(type="hidden" name="on0" value="Handle">Handle)

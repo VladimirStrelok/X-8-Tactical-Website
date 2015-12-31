@@ -9,6 +9,8 @@ body{
   background-size: cover !important;
   background: no-repeat center center fixed;
   transition: .5s;
+  background-color: #eeeeee;
+  color: #222222;
 }
 
 header{
@@ -96,4 +98,22 @@ main{
       }
     }
   }
+}
+
+.product{
+  .out-message{
+    display: none;
+  }
+  .in-message{
+    display:inline-block;
+  }
+  &.out{
+    .out-message{
+      display: inline-block;
+    }
+    .in-message{
+      display:none;
+    }
+  }
+
 }
